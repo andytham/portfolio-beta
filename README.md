@@ -31,7 +31,7 @@ Also glad you asked! Please follow the conventions that we discussed earlier tod
 
 - [50 Inspiring Portfolio Web Sites](https://speckyboy.com/creative-portfolios-of-50-designers/)
 
-- More to be added after the class review
+- [Student Portfolios](https://docs.google.com/spreadsheets/d/1WdZ28RYdnVSXl2a5Ct_aP-WpZSmlTO1BIqdVXTQVlTI/edit#gid=447840113)
 
 
 # 3) Assigned Reading 
@@ -60,7 +60,16 @@ Please also write a tech article about the process that went into building out y
 ## Sections
 
 - Intro
-- More to be added after the class review
+- Challenge
+- Design Process
+- Post MVP
+- Conclusion
+
+### The below sections were agreed as optional
+
+- Wireframes
+- SEO
+- Table of Contents
 
 
 ![screen shot 2017-12-21 at 4 14 15 pm](https://git.generalassemb.ly/storage/user/8723/files/0a739cec-e66a-11e7-9e2d-a97e84b706d4)
