@@ -71,7 +71,7 @@ Please also write a tech article about the process that went into building out y
 - SEO
 - Table of Contents
 
-<--!
+<!--
 ![screen shot 2017-12-21 at 4 14 15 pm](https://git.generalassemb.ly/storage/user/8723/files/0a739cec-e66a-11e7-9e2d-a97e84b706d4)
 -->
 
