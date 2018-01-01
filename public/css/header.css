@@ -1,0 +1,46 @@
+header{
+  width: 100%;
+  text-align:center;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+}
+#andy{
+  margin: 30px 0 0 0;
+}
+.name{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 60px;
+}
+
+.tagline{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  color: black;
+}
+.nav-wrapper{
+  display:flex;
+  align-items:center;
+  width:75%;
+  margin: 10px auto 50px auto;
+}
+
+.nav{
+  text-align:center;
+  width:100%;
+  font-size: 22px;
+  text-decoration: none;
+  list-style: none;
+}
+
+a{
+  color: rgb(201, 68, 68);
+  text-decoration: none;
+  display:inline-block;
+}
+
+a:hover{
+  transform: translateY(-3px);
+  color:black;
+}

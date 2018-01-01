@@ -1,49 +1,11 @@
 body{
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
-  color: pink;
+  background-color: rgb(186, 180, 180);
+  color: rgb(244, 66, 66);
+  color: rgb(201, 68, 68);
 }
 
-header{
-  width: 100%;
-  text-align:center;
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr;
-}
-
-.nav-wrapper{
-  display:flex;
-  border:1px red solid;
-  align-items:center;
-}
-.nav{
-  text-align:center;
-  width:100%;
-  font-size: 16px;
-  border: 1px black solid;
-}
-
-.portfolio-item{
-  width: 250px;
-  height: 350px;
-  text-align:center;
-}
-.image-wrapper{
-  width: 250px;
-  height: 250px;
-  overflow:hidden;
-  border: 2px black solid;
-  border-radius: 50%;
-  opacity: 1;
-}
-.proj-img{
-  width: 100%;
-  opacity: .5;
-
-}
-.proj-imgHover{
-  width: 100%;
-  position: relative;
-  top: -100px;
-  z-index: -1;
+ul{
+  padding-left: 0;
 }
