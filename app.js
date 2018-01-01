@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
 
+
 //static
 app.use(express.static('public'));
+//load js
+const proj = require('./public/js/project.js');
 
 
 const path = require('path');
@@ -14,14 +17,14 @@ app.use(methodOverride('_method'));
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
-
-
 const PORT = process.env.PORT || 3000;
 const portfolioRouter = require('./routes/portfolio-routes.js');
 app.use('/portfolio', portfolioRouter);
 
 app.get('/', (req,res) => {
-  res.render('index.ejs',{});
+  res.render('index.ejs',{
+    proj: proj
+  });
 });
 
 app.get('*', (req,res) => {

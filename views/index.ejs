@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <title>Andy Tham</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <script src="./js/project.js"></script>
   </head>
+  <% include ./partials/header.ejs %>
   <body>
-    <p>hello world </br>
-    this is andy tham's portfolio test
-  </p>
+  <%= proj[0].title %>
+  <% include ./partials/portfolio.ejs %>
   </body>
+
 </html>
