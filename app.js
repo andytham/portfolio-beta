@@ -1,5 +1,10 @@
 const express = require('express');
 const app = express();
+
+//static
+app.use(express.static('public'));
+
+
 const path = require('path');
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended:false}));
@@ -9,12 +14,14 @@ app.use(methodOverride('_method'));
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
-const PORT = process.env.port || 3000;
+
+
+const PORT = process.env.PORT || 3000;
 const portfolioRouter = require('./routes/portfolio-routes.js');
 app.use('/portfolio', portfolioRouter);
 
 app.get('/', (req,res) => {
-  res.send('hello world');
+  res.render('index.ejs',{});
 });
 
 app.get('*', (req,res) => {
