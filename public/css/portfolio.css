@@ -23,7 +23,7 @@
   width: 250px;
   height: 250px;
   overflow:hidden;
-  border: 2px black solid;
+
   border-radius: 25%;
   opacity: 1;
   margin: 0 0 10px 0;
@@ -69,15 +69,17 @@
   opacity:0;
 }
 
+/* the next two css learned from https://codepen.io/shshaw/pen/wWQZEB
+to prevent gaps from hiding the individual elements
+*/
+.portfolio {
+  visibility: hidden;
+}
+.portfolio > * {
+  visibility: visible;
+}
 
+/* select all but hovered */
 .portfolio:hover .proj-wrapper:not(:hover) {
   opacity:.4;
 }
-/*
-.portfolio:hover > .proj-wrapper{
-  opacity:.4;
-}
-.portfolio:hover > .proj-wrapper:hover{
-  opacity: 1;
-}
-*/
