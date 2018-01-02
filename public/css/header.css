@@ -34,13 +34,13 @@ header{
   list-style: none;
 }
 
-a{
+.nav-link{
   color: rgb(201, 68, 68);
   text-decoration: none;
   display:inline-block;
 }
 
-a:hover{
+.nav-link:hover{
   transform: translateY(-3px);
   color:black;
 }

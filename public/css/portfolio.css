@@ -83,3 +83,10 @@ to prevent gaps from hiding the individual elements
 .portfolio:hover .proj-wrapper:not(:hover) {
   opacity:.4;
 }
+
+a{
+    color: rgb(201, 68, 68);
+}
+.proj-link{
+  color: rgb(201, 68, 68);
+}
