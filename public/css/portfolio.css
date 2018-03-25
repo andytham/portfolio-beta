@@ -90,3 +90,7 @@ a{
 .proj-link{
   color: rgb(201, 68, 68);
 }
+
+li{
+  list-style-type: none;
+}
